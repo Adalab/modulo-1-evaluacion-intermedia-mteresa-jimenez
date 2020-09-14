@@ -46,6 +46,7 @@ a {
 
 .link {
   color: #4a4a4a;
+  font-size: 16px;
 }
 
 /* main */
@@ -65,4 +66,18 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* MEDIAQUERIES - tablet */
+
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 0 30px;
+  }
+
+  .logo {
+    margin: 20px 0 20px 0;
+  }
 }
